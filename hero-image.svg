@@ -1,0 +1,6 @@
+<svg width="400" height="500" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+    <rect width="400" height="500" fill="#ffdddd" rx="20" />
+    <text x="200" y="250" font-family="Arial" font-size="24" fill="#ff3366" text-anchor="middle">Student with Resume Image</text>
+    <rect x="100" y="300" width="200" height="100" fill="#ff3366" rx="10" />
+    <text x="200" y="350" font-family="Arial" font-size="18" fill="white" text-anchor="middle">Replace with actual image</text>
+</svg>

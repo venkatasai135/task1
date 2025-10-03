@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Service</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Company Logo">
+                <div class="logo-text">
+                    <h1>COMPANY</h1>
+                    <p>business tagline</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="cta-button">
+                <a href="#" class="btn-primary">Get A Quote</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Your Resume</h1>
+                <h2><span>Deserves A Yes</span> Let's Make It Happen</h2>
+                <p>IfYour Resume Isn't Getting Responses, It's Time For An Upgrade.</p>
+                <p>Get An ATS-Optimized Resume Crafted By HR Experts To Help You Land More Interviews. Our Resumes Are Designed To Get Your Foot In The Door And Place Your Name At The Top Of The Shortlist.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn-outline">RESUME PACKAGES</a>
+                    <a href="#" class="btn-primary">CONTACT US</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="unnamed-2.png" alt="Student with resume">
+                <div class="rating-badge">
+                    <h3>4.9</h3>
+                    <div class="stars-container">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>    Instructor Rating</p>
+                    </div>
+                    
+                </div>
+                <div class="resume-count-badge">
+                    <div class="icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="text">
+                        <h3>260+</h3>
+                        <p>Online Resume</p>
+                            <p>Created</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What You Get Section -->
+    <section class="what-you-get">
+        <div class="container">
+            <div class="section-title">
+                <h2>What You Get</h2>
+            </div>
+            <div class="subtitle">
+                <h3>You're Not Just Another Applicant And Your Resume Shouldn't Look Like One</h3>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="resume.png" alt="ATS Resume">
+                    </div>
+                    <h3>A Resume That Passes ATS Filters</h3>
+                    <p>Get a professionally written, keyword-optimized resume that lands in recruiter inboxes—not rejection piles.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="coverletter.png" alt="Cover Letter">
+                    </div>
+                    <h3>A Cover Letter That Gets Read</h3>
+                    <p>Stand out with a cover letter that speaks directly to the role and reflects your strengths.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="linkdin.png" alt="LinkedIn Profile">
+                    </div>
+                    <h3>A LinkedIn Profile That Works For You</h3>
+                    <p>Attract the right eyes, start conversations, and show up in recruiter searches.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="interview.png" alt="Interview Confidence">
+                    </div>
+                    <h3>Interview Confidence</h3>
+                    <p>Interview preparation with real HR professionals so you speak clearly, confidently, and convincingly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Create logo SVG -->
+    <script>
+        // This script creates a simple SVG logo and saves it as logo.svg
+        const logoSvg = `<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="30" cy="30" r="25" fill="#ff3366" />
+            <path d="M20,30 Q30,15 40,30 T60,30" stroke="white" stroke-width="3" fill="none" />
+        </svg>`;
+        
+        // Create other SVG illustrations for the service cards
+        const atsSvg = `<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+            <rect x="25" y="25" width="100" height="120" rx="5" fill="#ffdddd" />
+            <rect x="40" y="45" width="70" height="10" rx="2" fill="#ff3366" />
+            <rect x="40" y="65" width="70" height="5" rx="2" fill="#666" />
+            <rect x="40" y="75" width="70" height="5" rx="2" fill="#666" />
+            <rect x="40" y="85" width="70" height="5" rx="2" fill="#666" />
+            <rect x="40" y="105" width="30" height="20" rx="10" fill="#ff3366" />
+            <circle cx="110" cy="40" r="15" fill="#ff3366" />
+            <path d="M105,40 L110,45 L120,35" stroke="white" stroke-width="2" fill="none" />
+        </svg>`;
+        
+        const coverLetterSvg = `<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+            <path d="M30,30 L75,10 L120,30 L120,120 L30,120 Z" fill="#ffdddd" />
+            <path d="M75,10 L75,120" stroke="#ff3366" stroke-width="2" stroke-dasharray="5,5" />
+            <rect x="45" y="50" width="60" height="5" rx="2" fill="#666" />
+            <rect x="45" y="60" width="60" height="5" rx="2" fill="#666" />
+            <rect x="45" y="70" width="60" height="5" rx="2" fill="#666" />
+            <rect x="45" y="90" width="30" height="10" rx="5" fill="#ff3366" />
+        </svg>`;
+        
+        const linkedinSvg = `<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+            <rect x="25" y="25" width="100" height="100" rx="10" fill="#ffdddd" />
+            <rect x="45" y="45" width="60" height="10" rx="5" fill="#ff3366" />
+            <rect x="45" y="65" width="60" height="5" rx="2" fill="#666" />
+            <rect x="45" y="75" width="60" height="5" rx="2" fill="#666" />
+            <rect x="45" y="95" width="25" height="10" rx="5" fill="#ff3366" />
+            <circle cx="35" cy="35" r="5" fill="#ff3366" />
+            <path d="M115,35 L125,45" stroke="#ff3366" stroke-width="2" />
+            <path d="M115,45 L125,35" stroke="#ff3366" stroke-width="2" />
+        </svg>`;
+        
+        const interviewSvg = `<svg width="150" height="150" viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+            <rect x="25" y="40" width="100" height="70" rx="5" fill="#ffdddd" />
+            <circle cx="50" cy="75" r="15" fill="#ff3366" />
+            <circle cx="100" cy="75" r="15" fill="#ff3366" />
+            <rect x="40" y="100" width="70" height="10" rx="5" fill="#ff3366" />
+            <path d="M50,65 L50,85" stroke="white" stroke-width="2" />
+            <path d="M45,75 L55,75" stroke="white" stroke-width="2" />
+            <path d="M95,75 L105,75" stroke="white" stroke-width="2" />
+        </svg>`;
+        
+        // Create hero image placeholder
+        const heroImageSvg = `<svg width="400" height="500" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+            <rect width="400" height="500" fill="#ffdddd" rx="20" />
+            <text x="200" y="250" font-family="Arial" font-size="24" fill="#ff3366" text-anchor="middle">Student with Resume Image</text>
+            <rect x="100" y="300" width="200" height="100" fill="#ff3366" rx="10" />
+            <text x="200" y="350" font-family="Arial" font-size="18" fill="white" text-anchor="middle">Replace with actual image</text>
+        </svg>`;
+
+        // In a real implementation, you would save these SVGs to files
+        // For this example, we're just creating them in the script
+    </script>
+</body>
+</html>
